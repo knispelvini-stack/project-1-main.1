@@ -1,0 +1,58 @@
+2026-03-19 13:59:22,498 - INFO - [SYSTEM] LPA Ecommerce server starting up
+2026-03-19 14:31:24,991 - INFO - [SYSTEM] LPA Ecommerce server starting up
+2026-03-19 14:31:25,091 - INFO - [SYSTEM] Seeded 12 products into database
+2026-03-19 14:31:25,092 - INFO - [SYSTEM] Server startup complete
+2026-03-19 14:31:45,964 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 14:50:49,853 - INFO - [SYSTEM] LPA Ecommerce server starting up
+2026-03-19 14:50:49,895 - INFO - [SYSTEM] Server startup complete
+2026-03-19 14:51:34,284 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 14:51:40,400 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=Headsets)
+2026-03-19 14:51:42,212 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=Mice)
+2026-03-19 14:51:43,340 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 14:55:34,330 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 14:55:34,371 - INFO - [ACTIVITY] Home page accessed
+2026-03-19 14:55:34,384 - INFO - [ACTIVITY] Home page accessed
+2026-03-19 14:55:34,393 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 14:55:36,349 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 15:00:38,469 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 15:00:40,420 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 15:00:40,423 - INFO - [ACTIVITY] Home page accessed
+2026-03-19 15:00:40,434 - INFO - [ACTIVITY] Home page accessed
+2026-03-19 15:00:40,437 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 15:08:44,070 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 15:08:44,655 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 15:08:44,663 - INFO - [ACTIVITY] Home page accessed
+2026-03-19 15:08:44,667 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 15:08:44,670 - INFO - [ACTIVITY] Home page accessed
+2026-03-19 17:48:09,752 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 17:48:09,802 - INFO - [ACTIVITY] Home page accessed
+2026-03-19 17:48:09,816 - INFO - [ACTIVITY] Home page accessed
+2026-03-19 17:48:09,823 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 17:48:10,855 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 17:48:16,830 - INFO - [ACTIVITY] Home page accessed
+2026-03-19 17:48:16,833 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 17:48:16,836 - INFO - [ACTIVITY] Home page accessed
+2026-03-19 17:48:16,843 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 17:50:36,256 - INFO - [ACTIVITY] Home page accessed
+2026-03-19 17:50:36,263 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-19 17:50:36,267 - INFO - [ACTIVITY] Home page accessed
+2026-03-19 17:50:36,282 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-22 10:20:51,359 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-22 10:20:51,404 - INFO - [ACTIVITY] Home page accessed
+2026-03-22 10:20:51,418 - INFO - [ACTIVITY] Home page accessed
+2026-03-22 10:20:51,424 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-22 10:20:53,543 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-22 14:12:38,641 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-22 14:12:38,652 - INFO - [ACTIVITY] Home page accessed
+2026-03-22 14:12:38,658 - INFO - [ACTIVITY] Home page accessed
+2026-03-22 14:12:38,673 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-23 09:43:31,374 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-23 09:43:31,410 - INFO - [ACTIVITY] Home page accessed
+2026-03-23 09:43:31,422 - INFO - [ACTIVITY] Home page accessed
+2026-03-23 09:43:31,439 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-23 09:43:32,523 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-23 09:43:58,764 - INFO - [ACTIVITY] Home page accessed
+2026-03-23 09:43:58,770 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-23 09:43:58,773 - INFO - [ACTIVITY] Home page accessed
+2026-03-23 09:43:58,784 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-03-23 09:44:01,599 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)

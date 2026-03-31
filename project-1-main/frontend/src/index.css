@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 0 0% 2%;
+        --foreground: 0 0% 98%;
+        --card: 0 0% 4%;
+        --card-foreground: 0 0% 98%;
+        --popover: 0 0% 4%;
+        --popover-foreground: 0 0% 98%;
+        --primary: 184 100% 50%;
+        --primary-foreground: 0 0% 0%;
+        --secondary: 266 100% 50%;
+        --secondary-foreground: 0 0% 100%;
+        --muted: 240 6% 10%;
+        --muted-foreground: 240 5% 65%;
+        --accent: 240 6% 10%;
+        --accent-foreground: 0 0% 98%;
+        --destructive: 348 100% 50%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 240 4% 16%;
+        --input: 240 4% 16%;
+        --ring: 184 100% 50%;
+        --chart-1: 220 70% 50%;
+        --chart-2: 160 60% 45%;
+        --chart-3: 30 80% 55%;
+        --chart-4: 280 65% 60%;
+        --chart-5: 340 75% 55%;
+        --radius: 0.5rem;
+    }
+}
+
+@layer base {
+    * {
+        @apply border-border;
+    }
+    body {
+        @apply bg-background text-foreground;
+        font-family: 'Outfit', sans-serif;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-family: 'Rajdhani', sans-serif;
+    }
+}
+
+@layer base {
+    [data-debug-wrapper="true"] {
+        display: contents !important;
+    }
+
+    [data-debug-wrapper="true"] > * {
+        margin-left: inherit;
+        margin-right: inherit;
+        margin-top: inherit;
+        margin-bottom: inherit;
+        padding-left: inherit;
+        padding-right: inherit;
+        padding-top: inherit;
+        padding-bottom: inherit;
+        column-gap: inherit;
+        row-gap: inherit;
+        gap: inherit;
+        border-left-width: inherit;
+        border-right-width: inherit;
+        border-top-width: inherit;
+        border-bottom-width: inherit;
+        border-left-style: inherit;
+        border-right-style: inherit;
+        border-top-style: inherit;
+        border-bottom-style: inherit;
+        border-left-color: inherit;
+        border-right-color: inherit;
+        border-top-color: inherit;
+        border-bottom-color: inherit;
+    }
+}
