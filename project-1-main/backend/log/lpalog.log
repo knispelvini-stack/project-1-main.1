@@ -56,3 +56,15 @@
 2026-03-23 09:43:58,773 - INFO - [ACTIVITY] Home page accessed
 2026-03-23 09:43:58,784 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
 2026-03-23 09:44:01,599 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-04-02 10:33:44,561 - INFO - [SYSTEM] LPA Ecommerce server starting up
+2026-04-02 10:33:44,737 - INFO - [SYSTEM] Server startup complete
+2026-04-02 10:38:41,184 - INFO - [SYSTEM] LPA Ecommerce server shutting down
+2026-04-02 10:38:43,128 - INFO - [SYSTEM] LPA Ecommerce server starting up
+2026-04-02 10:38:43,154 - INFO - [SYSTEM] Server startup complete
+2026-04-02 10:39:31,139 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-04-02 10:39:31,159 - INFO - [ACTIVITY] Home page accessed
+2026-04-02 10:39:31,170 - INFO - [ACTIVITY] Home page accessed
+2026-04-02 10:39:31,189 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-04-02 10:39:33,806 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=None)
+2026-04-02 10:42:01,918 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=Monitors)
+2026-04-02 10:42:03,498 - INFO - [ACTIVITY] Product catalog accessed (search=None, category=Webcams)

@@ -36,9 +36,10 @@ export default function Products() {
         setProducts(data);
       } catch (e) {
         console.error('Failed to fetch products', e);
+        const detail = e.response?.data?.detail || e.message;
         setProducts([]);
         setFetchError(
-          `Falha ao conectar com API em ${API}/products. Verifique backend em localhost:8000 e CORS.`
+          `Erro: ${detail}. Não foi possível conectar em ${API}/products. Verifique se o backend está rodando.`
         );
       }
       setLoading(false);

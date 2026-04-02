@@ -15,10 +15,14 @@ import jwt
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
 
-# MongoDB connection
-mongo_url = os.environ['MONGO_URL']
-client = AsyncIOMotorClient(mongo_url)
-db = client[os.environ['DB_NAME']]
+try:
+    # MongoDB connection
+    mongo_url = os.environ.get('MONGO_URL', 'mongodb://localhost:27017')
+    db_name = os.environ.get('DB_NAME', 'lpa_ecommerce')
+    client = AsyncIOMotorClient(mongo_url, serverSelectionTimeoutMS=5000)
+    db = client[db_name]
+except Exception as e:
+    print(f"CRITICAL ERROR: Could not initialize database connection: {e}")
 
 # JWT Secret
 JWT_SECRET = os.environ.get('JWT_SECRET', 'lpa_ecommerce_secret_key_2024')
@@ -444,13 +448,15 @@ async def shutdown_event():
     write_log("INFO", "LPA Ecommerce server shutting down", "SYSTEM")
     client.close()
 
-# Include router
-app.include_router(api_router)
-
+# CORS should be added to the app instance before or after routes, 
+# but using the standard FastAPI pattern:
 app.add_middleware(
     CORSMiddleware,
+    allow_origins=["*"], # For development, use "*" to eliminate CORS as a suspect
     allow_credentials=True,
-    allow_origins=os.environ.get('CORS_ORIGINS', '*').split(','),
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Include router after CORS setup
+app.include_router(api_router)

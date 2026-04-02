@@ -4,7 +4,7 @@ import axios from 'axios';
 import { motion } from 'framer-motion';
 import { ArrowRight, Keyboard, Mouse, Headphones, Monitor, Camera, Square } from 'lucide-react';
 
-const API = `${process.env.REACT_APP_BACKEND_URL}/api`;
+const API = `${process.env.REACT_APP_BACKEND_URL || 'http://localhost:8000'}/api`;
 
 const CATEGORIES = [
   { name: 'Keyboards', icon: Keyboard, color: '#00f0ff' },
